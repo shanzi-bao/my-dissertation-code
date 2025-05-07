@@ -66,6 +66,19 @@ Again, **k = 2** is the default; modify to change the dimension as needed.
 
 ---
 
+
+## 🧠 ABC Regression Adjustment (Custom for Section 4.4 & 4.5)
+
+Although the `abc` package includes a basic regression adjustment option,  
+our experimental models (especially in Sections **4.4** and **4.5**) involve complex structured summary statistics,  
+which can not be directly supported by standard postprocessing tools.
+
+Therefore, we implemented a custom function `abc_regression_adjustment_v2()` that uses the local linear regression.
+
+This function is used **only** to postprocess results in the two numerical experiments and is not needed elsewhere in the project.
+
+
+
 ## ✅ How to Use
 
 1. Clone or download the entire repository.
@@ -87,3 +100,6 @@ Again, **k = 2** is the default; modify to change the dimension as needed.
 ## 📄 License
 
 This repository is for academic purposes only and is shared to accompany my **double-semester project**.
+
+## 📚 References
+
