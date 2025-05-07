@@ -105,5 +105,5 @@ This function is used **only** to postprocess results in the two numerical exper
 
 This repository is for academic purposes only and is shared to accompany my **double-semester project**.
 
-## 📚 References
+
 
