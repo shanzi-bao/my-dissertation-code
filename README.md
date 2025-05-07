@@ -29,6 +29,10 @@ Each script or folder corresponds to a specific section of the dissertation and 
 - **grid example to present different batch strategy.R**  
   → Visualization of different batch strategies in a grid  
   → Corresponds to Section **3.2.3**
+  
+- **regression adjustment.R**  
+  → Custom implementation of local linear regression adjustment for ABC  
+  → Used in Sections **4.4** and **4.5** to postprocess results with complex summary statistics  
 
 ---
 
